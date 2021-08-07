@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: 450px;
+    }
+
+    h3 {
+      text-align: left;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h1>The Lord of the Rings</h1>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src="tfotr.jpg">
+      <h3>The Fellowship of the Ring</h3>
+      <p>
+        The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson, based
+        on the 1954 novel The Fellowship of the Ring, the first volume of J. R. R. Tolkien's The Lord of the Rings. The film is
+        the first installment in the Lord of the Rings trilogy.
+      </p>
+    </div>
+    <div class="column">
+      <img src ="ttt.jpg">
+      <h3>The Two Towers</h3>
+      <p>
+        Continuing the plot of The Fellowship of the Ring, the film intercuts three storylines. Frodo and Sam continue their
+        journey towards Mordor to destroy the One Ring, meeting and joined by Gollum, the ring's former owner. Aragorn, Legolas,
+        and Gimli come to the war-torn nation of Rohan and are reunited with the resurrected Gandalf, before fighting against
+        the legions of the treacherous wizard Saruman at the Battle of Helm's Deep. Merry and Pippin escape capture, meet
+        Treebeard the Ent, and help to plan an attack on Isengard, fortress of Saruman.
+      </p>
+    </div>
+    <div class="column">
+      <img src="trotk.jpg">
+      <h3>The Return of the King</h3>
+      <p>
+        Continuing the plot of The Two Towers, Frodo, Sam and Gollum are making their final way toward Mount Doom in
+        Mordor in order to destroy the One Ring, unaware of Gollum's true intentions, while Gandalf, Aragorn, Legolas, Gimli and
+        the rest are joining forces together against Sauron and his legions in Minas Tirith. It was preceded by The Fellowship
+        of the Ring (2001) and The Two Towers (2002).
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
