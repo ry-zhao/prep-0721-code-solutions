@@ -28,3 +28,9 @@ function subtractTwoNumbers(num1, num2) {
 }
 var subtract = subtractTwoNumbers(100, 75);
 console.log('subtractTwoNumbers(100, 75):', subtract);
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+var circum = getCircleCircumference(6);
+console.log('getCircleCircumference(6):', circum);
