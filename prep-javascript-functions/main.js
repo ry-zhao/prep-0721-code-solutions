@@ -40,3 +40,9 @@ function getFullName(firstName, lastName) {
 }
 var name = getFullName('Alan', 'Turing');
 console.log('getFullName("Alan", "Turing"):', name);
+
+function cube(number) {
+  return number * number * number;
+}
+var twentyseven = cube(3);
+console.log('cube(3):', twentyseven);
