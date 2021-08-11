@@ -34,3 +34,9 @@ function getCircleCircumference(radius) {
 }
 var circum = getCircleCircumference(6);
 console.log('getCircleCircumference(6):', circum);
+
+function getFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+var name = getFullName('Alan', 'Turing');
+console.log('getFullName("Alan", "Turing"):', name);
